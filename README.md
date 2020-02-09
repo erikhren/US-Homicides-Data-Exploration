@@ -22,8 +22,8 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
 4. Victim Age
     * contains ages of the victims <br>
 5. Perpetrator Age
-   * contains ages of the perpetrators where 0 mean unknown <br>
-6. Victim Count and Perpertrator Count <br>
+   * contains ages of the perpetrators where 0 mean unknown 
+6. Victim Count and Perpertrator Count 
    * start with zero and have a maximum value of 10 
    * tells us about the number of victims and perpetrators involved in a particular incident 
 7. Agency code <br>
@@ -35,7 +35,7 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
    * Type of the agency handling the case(s)
 10. City & State 
 11. Victim & Perpetrator sex
-   * Male or Female<br>
+   * Male or Female
 12. Victim & Perpetrator ethnicity
    * Unknown, Not Hispanic, Hispanic
 13. Victim & Perpetrator race
