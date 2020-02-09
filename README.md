@@ -33,7 +33,8 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
    * Name of the agency handling the case(s)
 9. Agency type 
    * Type of the agency handling the case(s)
-10. City & State 
+10. City & State
+
 11. Victim & Perpetrator sex
    * Male or Female
 12. Victim & Perpetrator ethnicity
