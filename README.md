@@ -16,7 +16,7 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
 1. The record ID<br>
     * Sequentially numbers the report (i.e. 1,2,3...)<br>
 2. Year and Month<br>
-    * The year and month of the given report, ranging from year 1980-2014<br><br>
+    * The year and month of the given report, ranging from year 1980-2014<br>
 3. Incident 
     * How many incidences occured for the specific features (e.i. year, month, perpetrator age...)<br>
 4. Victim Age
@@ -24,30 +24,30 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
 5. Perpetrator Age
    * contains ages of the perpetrators where 0 mean unknown <br>
 6. Victim Count and Perpertrator Count <br>
-   * start with zero and have a maximum value of 10 <br>
-   * tells us about the number of victims and perpetrators involved in a particular incident <br> 
+   * start with zero and have a maximum value of 10 
+   * tells us about the number of victims and perpetrators involved in a particular incident 
 7. Agency code <br>
-   * is six-digit alphanumeric code used to classify accounts by the federal or non-federal agency. <br>
-   * The alpha part of the code is the parent or major agency. The numeric part of the code identifies the sub-agency.<br>
+   * is six-digit alphanumeric code used to classify accounts by the federal or non-federal agency. 
+   * The alpha part of the code is the parent or major agency. The numeric part of the code identifies the sub-agency.
 8. Agency name
-   * Name of the agency handling the case(s)<br>
+   * Name of the agency handling the case(s)
 9. Agency type 
-   * Type of the agency handling the case(s)<br>
+   * Type of the agency handling the case(s)
 10. City & State 
 11. Victim & Perpetrator sex
    * Male or Female<br>
 12. Victim & Perpetrator ethnicity
-   * Unknown, Not Hispanic, Hispanic<br>
+   * Unknown, Not Hispanic, Hispanic
 13. Victim & Perpetrator race
-   * Native American/Alaska Native, White, Black, Unknown, Asian/Pacific Islander<br>
+   * Native American/Alaska Native, White, Black, Unknown, Asian/Pacific Islander
 14. Relationship
-   * Victim of a crime (i.e. Son) <br>
+   * Victim of a crime (i.e. Son) 
 15. Crime type
    * Murder or Mansloughter
-   * Mansloughter by negligence<br>
+   * Mansloughter by negligence
 16. Crime solved
-   * Whether the crime was solved or not<br>
-17. Weapon<br>
+   * Whether the crime was solved or not
+17. Weapon
    * The weapon the crime was committed with 
         
 **Project Steps**<br>
