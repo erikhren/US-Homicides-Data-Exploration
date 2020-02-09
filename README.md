@@ -1,6 +1,6 @@
-# US-Homicides-1980-2014
+# US Homicides from 1980-2014 - Data Exploration Project
 
-**Project Description**
+**Project Description**<br>
 This project is descriptive in nature with the focus on exploring different ways to visualize the data. Data scientist got to know their data to formulate a vaiable problem statement which serves as a stepping stone for building more advanced machine learning models. However, many things can be learned just by building different graphs and statistical models. 
 
 For instance, in our case we can learn that homicides rates have been sharply declining, the US perpetrators and victims age have decreased, and did you know that most homicides happen in the summer months? Moreover, this might have a slight influence on why the southern states have generally higher homicide rates. 
