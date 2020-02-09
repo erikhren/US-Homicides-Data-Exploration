@@ -17,7 +17,7 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
     * Sequentially numbers the report (i.e. 1,2,3...)<br>
 2. Year and Month<br>
     * The year and month of the given report, ranging from year 1980-2014<br><br>
-3. Incident <br>
+3. Incident 
     * How many incidences occured for the specific features (e.i. year, month, perpetrator age...)<br>
 4. Victim Age
     * contains ages of the victims <br>
@@ -29,26 +29,26 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
 7. Agency code <br>
    * is six-digit alphanumeric code used to classify accounts by the federal or non-federal agency. <br>
    * The alpha part of the code is the parent or major agency. The numeric part of the code identifies the sub-agency.<br>
-8. Agency name<br>
+8. Agency name
    * Name of the agency handling the case(s)<br>
-9. Agency type <br>
+9. Agency type 
    * Type of the agency handling the case(s)<br>
-10. City & State <br>
-11. Victim & Perpetrator sex<br>
+10. City & State 
+11. Victim & Perpetrator sex
    * Male or Female<br>
-12. Victim & Perpetrator ethnicity<br>
+12. Victim & Perpetrator ethnicity
    * Unknown, Not Hispanic, Hispanic<br>
-13. Victim & Perpetrator race<br>
+13. Victim & Perpetrator race
    * Native American/Alaska Native, White, Black, Unknown, Asian/Pacific Islander<br>
-14. Relationship<br>
+14. Relationship
    * Victim of a crime (i.e. Son) <br>
-15. Crime type<br>
-   * Murder or Mansloughter<br>
+15. Crime type
+   * Murder or Mansloughter
    * Mansloughter by negligence<br>
-16. Crime solved<br>
+16. Crime solved
    * Whether the crime was solved or not<br>
 17. Weapon<br>
-   * The weapon the crime was committed with <br>
+   * The weapon the crime was committed with 
         
 **Project Steps**<br>
 1. Data Exploration<br>
