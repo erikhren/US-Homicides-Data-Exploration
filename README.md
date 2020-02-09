@@ -52,16 +52,16 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
         
 **Project Steps**<br>
 1. Data Exploration<br>
-    - Overview and understanding of the data<br>
-    - Finding Errors<br>
+    * Overview and understanding of the data<br>
+    * Finding Errors<br>
 2. Data Cleaning<br>
-    - Clean the data and prepare it for viziulization<br>
-    - Expect an extensive cleaning operation<br>
+    * Clean the data and prepare it for viziulization<br>
+    * Expect an extensive cleaning operation<br>
 3. Subsetting & viziulization<br>
-    - For the US  <br>
+    * For the US  <br>
 4. Decision Trees<br>
-    - Encode data<br>
-    - Decision tree model<br>
+    * Encode data<br>
+    * Decision tree model<br>
 5. Going Forward<br>
 
 **Python Package Glossary**
