@@ -14,7 +14,7 @@ The data was compiled and made available by the Murder Accountability Project, f
 
 The homocide dataset consists of 24 columns and 638,454 rows each. Here are the explanations for each column:<br>
     1. The record ID<br>
-        - Sequentially numbers the reports (i.e. 1,2,3...)<br>
+        - Sequentially numbers the report (i.e. 1,2,3...)<br>
     2. Year and Month<br>
         - The year and month of the given report, ranging from year 1980-2014<br>
     3. Incident <br>
