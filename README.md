@@ -19,9 +19,9 @@ The homocide dataset consists of 24 columns and 638,454 rows each. Here are the 
     * The year and month of the given report, ranging from year 1980-2014<br><br>
 3. Incident <br>
     * How many incidences occured for the specific features (e.i. year, month, perpetrator age...)<br>
-4. Victim Age<br>
+4. Victim Age
     * contains ages of the victims <br>
-5. Perpetrator Age<br>
+5. Perpetrator Age
    * contains ages of the perpetrators where 0 mean unknown <br>
 6. Victim Count and Perpertrator Count <br>
    * start with zero and have a maximum value of 10 <br>
