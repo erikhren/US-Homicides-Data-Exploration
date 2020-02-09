@@ -12,7 +12,7 @@ There is much more to learn from this notebook but the problem we focused on is 
    
 Towards the end of the project we built a simple baseline decision tree model to try to predict whether the case will be solved or not.  
 
-**Goin Forward**
+**Goin Forward**<br>
 To enhance the accuracy of our model we aim to improve the entire CRISP-DM cycle. This includes, testing different techniques for data imputation, normalization, standardization, discretization, data reduction, and algorithm models (random forest, XGboost etc.). 
 
 **Data Source and Content**
