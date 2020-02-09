@@ -1,5 +1,20 @@
 # US-Homicides-1980-2014
 
+**Project Description**
+This project is descriptive in nature with the focus on exploring different ways to visualize the data. Data scientist got to know their data to formulate a vaiable problem statement which serves as a stepping stone for building more advanced machine learning models. However, many things can be learned just by building different graphs and statistical models. 
+
+For instance, in our case we can learn that homicides rates have been sharply declining, the US perpetrators and victims age have decreased, and did you know that most homicides happen in the summer months? Moreover, this might have a slight influence on why the southern states have generally higher homicide rates. 
+
+There is much more to learn from this notebook but the problem we focused on is whether it is possible to predict based on the victim data whether the crime will be solved or not. The main factors that drove us to explore this further were rather controversial but we were curious.
+   - significantly larger unknown perpetrator values for whites and victim values for African-Americans 
+   - about 90% of the unknown values were linked to unsolved cases
+   - approximately 60% of the murder cases get solved (Although, the FBI considers a murder case solved only after the perpetrator is sentenced)
+   
+Towards the end of the project we built a simple baseline decision tree model to try to predict whether the case will be solved or not.  
+
+**Goin Forward**
+To enhance the accuracy of our model we aim to improve the entire CRISP-DM cycle. This includes, testing different techniques for data imputation, normalization, standardization, discretization, data reduction, and algorithm models (random forest, XGboost etc.). 
+
 **Data Source and Content**
 
 The Murder Accountability Project is the most complete database of homicides in the United States currently available. This dataset includes murders from the FBI's Supplementary Homicide Report from 1976 to the present and Freedom of Information Act data on more than 22,000 homicides that were not reported to the Justice Department. This dataset includes the age, race, sex, ethnicity of victims and perpetrators, in addition to the relationship between the victim and perpetrator and weapon used.
@@ -13,43 +28,23 @@ The data was compiled and made available by the Murder Accountability Project, f
 **Dataset Information**
 
 The homocide dataset consists of 24 columns and 638,454 rows each. Here are the explanations for each column:
-1. The record ID
-    * Unique identifier 
-2. Year and Month
-    * The year and month of the given report, ranging from year 1980-2014
-3. Incident 
-    * How many incidences occured for the specific features (e.i. year, month, perpetrator age...)
-4. Victim Age
-    * contains ages of the victims 
-5. Perpetrator Age
-   * contains ages of the perpetrators where 0 mean unknown 
-6. Victim Count and Perpertrator Count 
-   * start with zero and have a maximum value of 10 
-   * tells us about the number of victims and perpetrators involved in a particular incident 
-7. Agency code <br>
-   * is six-digit alphanumeric code used to classify accounts by the federal or non-federal agency. 
-   * The alpha part of the code is the parent or major agency. The numeric part of the code identifies the sub-agency.
+1. The record ID (Unique identifier)
+2. Year and Month (The year and month of the given report, ranging from year 1980-2014)
+3. Incident (How many incidences occured for the specific features e.i. year, month, perpetrator age...)
+4. Victim Age 
+5. Perpetrator Age (contains ages of the perpetrators where 0 mean unknown or missing) 
+6. Victim Count and Perpertrator Count (start with zero and have a maximum value of 10) 
+7. Agency code (a six-digit alphanumeric code used to classify accounts by the federal or non-federal agency)
 8. Agency name
-   * Name of the agency handling the case(s)
 9. Agency type 
-   * Type of the agency handling the case(s)
 10. City & State
-
 11. Victim & Perpetrator sex
-   * Male or Female
-12. Victim & Perpetrator ethnicity
-   * Unknown, Not Hispanic, Hispanic
-13. Victim & Perpetrator race
-   * Native American/Alaska Native, White, Black, Unknown, Asian/Pacific Islander
-14. Relationship
-   * Victim of a crime (i.e. Son) 
-15. Crime type
-   * Murder or Mansloughter
-   * Mansloughter by negligence
-16. Crime solved
-   * Whether the crime was solved or not
-17. Weapon
-   * The weapon the crime was committed with 
+12. Victim & Perpetrator ethnicity (Unknown, Not Hispanic, Hispanic)
+13. Victim & Perpetrator race (Native American/Alaska Native, White, Black, Unknown, Asian/Pacific Islander)
+14. Relationship (Victim of a crime i.e. Son) 
+15. Crime type (Murder or Mansloughter or Mansloughter by negligence)
+16. Crime solved 
+17. Weapon 
         
 **Project Steps**<br>
 1. Data Exploration<br>
