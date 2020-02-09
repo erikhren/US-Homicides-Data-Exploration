@@ -14,21 +14,21 @@ The data was compiled and made available by the Murder Accountability Project, f
 
 The homocide dataset consists of 24 columns and 638,454 rows each. Here are the explanations for each column:<br>
     1. The record ID<br>
-        - Sequentially numbers the report (i.e. 1,2,3...)<br><br>
+        * Sequentially numbers the report (i.e. 1,2,3...)<br>
     2. Year and Month<br>
-        - The year and month of the given report, ranging from year 1980-2014<br><br>
+        * The year and month of the given report, ranging from year 1980-2014<br><br>
     3. Incident <br>
-        - How many incidences occured for the specific features (e.i. year, month, perpetrator age...)<br><br>
+        * How many incidences occured for the specific features (e.i. year, month, perpetrator age...)<br><br>
     4. Victim Age<br>
-        - contains ages of the victims <br>
+        * contains ages of the victims <br>
     5. Perpetrator Age<br>
-        - contains ages of the perpetrators where 0 mean unknown <br>
+        * contains ages of the perpetrators where 0 mean unknown <br>
     6. Victim Count and Perpertrator Count <br>
-        - start with zero and have a maximum value of 10 <br>
-        - tells us about the number of victims and perpetrators involved in a particular incident <br> 
+        * start with zero and have a maximum value of 10 <br>
+        * tells us about the number of victims and perpetrators involved in a particular incident <br> 
     7. Agency code <br>
-        - is six-digit alphanumeric code used to classify accounts by the federal or non-federal agency. <br>
-        - The alpha part of the code is the parent or major agency. The numeric part of the code identifies the sub-agency.<br>
+        * is six-digit alphanumeric code used to classify accounts by the federal or non-federal agency. <br>
+        * The alpha part of the code is the parent or major agency. The numeric part of the code identifies the sub-agency.<br>
     8. Agency name<br>
         - Name of the agency handling the case(s)<br>
     9. Agency type <br>
